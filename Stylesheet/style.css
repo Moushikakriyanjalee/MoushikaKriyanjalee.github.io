@@ -157,6 +157,14 @@
     height: 27rem;
   }
 
+.circle-about-mobile {
+    background-color: #ABB1EE;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 20rem;
+    height: 20rem;
+  }
+
 .circle-about img{
     width: 24rem;
 }
