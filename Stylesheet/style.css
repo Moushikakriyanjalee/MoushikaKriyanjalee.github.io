@@ -13,10 +13,6 @@
     background-color: #E6E1F9 ;
 }
 
-.has-underline-color{
-    text-decoration-color: #790DE5;
-}
-
 
 .has-text-comforta{
     font-family: 'Comfortaa';
@@ -31,6 +27,9 @@
     text-transform: uppercase;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+}
+.has-underline-color{
+    text-decoration-color: #790DE5 !important;
 }
 
 .has-text-Playfair_Display{
