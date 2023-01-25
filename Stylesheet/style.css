@@ -13,6 +13,10 @@
     background-color: #E6E1F9 ;
 }
 
+.has-underline-color{
+    text-decoration-color: #790DE5 !important;
+}
+
 
 .has-text-comforta{
     font-family: 'Comfortaa';
