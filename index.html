@@ -29,6 +29,10 @@
       referrerpolicy="no-referrer"
     />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>Portfolio Website</title>
 
     <link rel="stylesheet" href="Stylesheet/style.css" />
@@ -73,8 +77,9 @@
         </div>
       </nav>
     </header>
-
-    <section class="section p-0" id="Home">
+    <div data-aos="fade-up" data-aos-duration="1000">
+    <section class="section p-0" id="Home">   
+     
       <div class="columns">
         <div class="column is-6 is-align-self-center">
           <div class="pl-6 is-hidden-touch">
@@ -100,7 +105,7 @@
 
             <br />
             <div class="mt-10 mr-2 has-text-left">
-              <button class="button is-normal is-focused is-projects">
+              <button class="button is-normal is-focused is-projects has-text-black">
                 Projects
               </button>
               <button class="button is-normal is-focused is-LinkedIn">
@@ -155,9 +160,11 @@
         </div>
       </div>
     </section>
+  </div>
 
     <!--About Me-->
 
+    <div data-aos="zoom-in-up" data-aos-duration="1000">
     <section class="section is-medium" id="About">
       <div class="columns">
         <div class="column is-half is-align-self-center">
@@ -169,7 +176,7 @@
         <div class="column is-half">
           <span class="box is-box-about">
             <div class="pt-5 pl-5 pr-5">
-              <p class="title is-1 About-me has-text-left">About Me</p>
+              <p class="title is-1 About-me has-text-left has-underline-color">About Me</p>
               <br />
 
               <p class="About-info has-text-left pt-3">
@@ -194,13 +201,14 @@
         </div>
       </div>
     </section>
+  </div>
 
     <!--Education-->
-
+    <div data-aos="fade-down" data-aos-duration="1000">
     <section class="section is-medium" id="Education">
       <div class="columns is-box-edu mt-5">
         <div class="column">
-          <p class="title title-edu is-1 has-text-centered is-underlined">Education</p>
+          <p class="title title-edu is-1 has-text-centered is-underlined has-underline-color">Education</p>
         
           <div class="columns">
             <div class="column is-4 has-text-centered">
@@ -241,12 +249,14 @@
         </div>
       </div>
     </section>
+  </div>
     <br />
 
     <!--projects-->
+    <div data-aos="zoom-in" data-aos-duration="1000">
     <section class="section is-medium" id="Projects">
       <div class="title">
-        <p class="title title-projects is-1 has-text-centered is-underlined">
+        <p class="title title-projects is-1 has-text-centered is-underlined has-underline-color">
           Projects
         </p>
       </div>
@@ -263,11 +273,10 @@
                   and create a digital badge and offer the badge for a specific
                   skill/achievement of a person.
                 </div>
-                
-                <button class="button is-link is-rounded is-hovered is-download my-5">
-                  View Project
-                </button>
               </div>
+              <button class="button is-link is-rounded is-hovered is-download my-6">
+                View Project
+              </button>
             </div>
             <div class="column is-half is-centered p-0">
               <div class="card-image">
@@ -280,13 +289,15 @@
         </div>
       </div>
     </section>
+  </div>
     <br />
 
     <!--Skills-->
+    <div data-aos="zoom-out-up" data-aos-duration="1000">
     <div class="section is-medium" id="Skills">
       <div class="title">
         <h1
-          class="title title-edu is-1 has-text-centered is-underlined is-size"
+          class="title title-edu is-1 has-text-centered is-underlined is-size has-underline-color"
         >
           Skills
         </h1>
@@ -344,14 +355,17 @@
 
     </div>
     </section>
+  </div>
     <br />
 
     <!--Contact me-->
+
+    <div data-aos="zoom-in-down" data-aos-duration="1000">
     <section class="section is-medium" id="Contact Me">
       <div class="columns">
         <div class="column is-6 mx-auto">
           <div
-            class="title title-edu has-text-centered is-size-2 is-underlined"
+            class="title title-edu has-text-centered is-size-2 is-underlined has-underline-color  "
           >
             <span>Contact Me</span>
           </div>
@@ -422,6 +436,10 @@
           </svg>     
       </div>   
     </footer>
+  </div>
   </body>
+  <script>
+    AOS.init();
+  </script>
   <script src="script.js"></script>
 </html>
